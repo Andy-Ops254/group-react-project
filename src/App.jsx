@@ -1,14 +1,22 @@
+
 import home from "./home"
 
+
+import Navbar from "./Navbar"
+
+
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
+
     <>
     <home />
-
+    <Navbar />
     </>
   )
 }
+
+
 
 export default App
