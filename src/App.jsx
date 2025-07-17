@@ -9,13 +9,12 @@ function App() {
 
 
   return (
-
     <>
-    <home />
     <Navbar />
+    <home />
     </>
-  )
-}
+    )
+    }
 
 
 
